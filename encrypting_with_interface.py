@@ -74,7 +74,7 @@ def decrypt_text():
 # Set up the main window
 root = tk.Tk()
 root.title("Caesar Cipher Encryption/Decryption")
-root.geometry("300x175")
+root.geometry("300x200")
 
 # Shift label and entry
 shift_label = tk.Label(root, text="Shift:")
