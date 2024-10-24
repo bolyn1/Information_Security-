@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 from caesar_class import CaesarEncryptDecrypt
 
+
 def perform_encryption():
     try:
         shift = int(shift_entry.get()) % 26  # Getting Shift
@@ -17,6 +18,7 @@ def perform_encryption():
         messagebox.showinfo("Success", "Text encrypted and saved successfully.")
     except ValueError:
         messagebox.showerror("Error", "Please enter a valid shift value.")
+
 
 def perform_decryption():
     try:
